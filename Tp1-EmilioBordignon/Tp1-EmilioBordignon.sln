@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tp1-EmilioBordignon", "Tp1-EmilioBordignon\Tp1-EmilioBordignon.csproj", "{258E9998-D2F6-4283-85C8-0F24AD269123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tp2", "Tp2\Tp2.csproj", "{F2B9444B-2793-4704-84B8-EA389BDFE67C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{258E9998-D2F6-4283-85C8-0F24AD269123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258E9998-D2F6-4283-85C8-0F24AD269123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258E9998-D2F6-4283-85C8-0F24AD269123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258E9998-D2F6-4283-85C8-0F24AD269123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B9444B-2793-4704-84B8-EA389BDFE67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B9444B-2793-4704-84B8-EA389BDFE67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B9444B-2793-4704-84B8-EA389BDFE67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B9444B-2793-4704-84B8-EA389BDFE67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCC45259-66A5-4EEE-8BA7-F0B675CF1730}
+	EndGlobalSection
+EndGlobal

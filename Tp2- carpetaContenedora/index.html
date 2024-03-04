@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <button onclick="window.modal.showModal();">Abrir ventana modal</button>
+
+  <dialog id="modal">
+     <h2>Este es el título de mi ventana modal</h2>
+     <p>Este es un texto de ejemplo dentro de una ventana modal</p>
+     <button onclick="window.modal.close();">Cerrar</button>
+  </dialog>
+
+  <!-- 
+.close() - al hacer clic en el elemento que lleve este atributo, cerrará el elemento dialog.
+.show() - al hacer clic en el elemento que lleve este atributo, abrirá el elemento dialog.
+.showModal() - al hacer clic en el elemento que lleve este atributo, abrirá el elemento dialog, bloqueando la interacción con el resto de elementos.
+ -->
+
+</body>
+</html>

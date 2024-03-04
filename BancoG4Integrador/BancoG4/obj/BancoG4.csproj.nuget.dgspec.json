@@ -1,0 +1,303 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\BancoG4\\BancoG4.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\BancoG4\\BancoG4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\BancoG4\\BancoG4.csproj",
+        "projectName": "BancoG4",
+        "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\BancoG4\\BancoG4.csproj",
+        "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\BancoG4\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\DTOs\\DTOs.csproj"
+              },
+              "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.10.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\DTOs\\DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\DTOs\\DTOs.csproj",
+        "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\Data\\Data.csproj"
+              },
+              "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\BancoTpIntegrador\\BancoG4\\DTOs\\DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

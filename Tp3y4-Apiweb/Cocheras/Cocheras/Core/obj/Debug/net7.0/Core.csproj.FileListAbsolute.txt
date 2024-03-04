@@ -1,0 +1,11 @@
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\bin\Debug\net7.0\Core.deps.json
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\bin\Debug\net7.0\Core.dll
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\bin\Debug\net7.0\Core.pdb
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\obj\Debug\net7.0\Core.dll
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\obj\Debug\net7.0\refint\Core.dll
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\obj\Debug\net7.0\Core.pdb
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp3-Apiweb\Cocheras\Cocheras\Core\obj\Debug\net7.0\ref\Core.dll

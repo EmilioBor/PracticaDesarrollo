@@ -1,0 +1,584 @@
+@font-face {
+    font-family:"Gilroy";
+    src: url(Gilroy-FREE/Gilroy-Light.otf);}
+
+    @font-face {
+        font-family:"Gilroy--bold";
+        src: url(Gilroy-FREE/Gilroy-ExtraBold.otf);}
+
+        body {
+          font-family: "Gilroy", sans-serif;
+          margin: 0;
+      }
+      
+      h1, h2 {
+          text-align: center;
+      }
+      
+      ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+      }
+      
+      .logotipo {margin-left: 40px;}
+      /* Estilos para el encabezado */
+      
+      .container {
+        max-width: 1050px;
+        width: 90%;
+        margin: auto;
+      }
+      
+      .navbar {display: none;
+        width: 100%;
+        box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+      }
+      
+      .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 62px;
+      }
+      
+      .navbar .menu-items {
+        display: flex;
+      }
+      
+      .navbar .nav-container li {
+        list-style: none;
+      }
+      
+      .navbar .nav-container a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding: 0.7rem;
+      }
+      
+      .navbar .nav-container a:hover{
+          font-weight: bolder;
+      }
+      
+      .nav-container {
+        display: block;
+        position: absolute;
+        height: 60px;
+        top: 4px;
+      }
+      
+      .nav-container .checkbox {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 32px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+      }
+      
+      .nav-container .hamburger-lines {
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      .nav-container .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #ffffff; 
+      }
+      
+      .nav-container .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+      }
+      
+      .nav-container .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      .nav-container .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+      }
+      
+      
+      .navbar .menu-items {
+        padding-top: 120px;
+        background-color: rgba(19, 18, 18, 0.58);
+        height: 100vh;
+        width: 100%;
+        transform: translate(-150%);
+        display: flex;
+        flex-direction: column;
+        padding-left: 4px;
+        transition: transform 0.5s ease-in-out;
+        text-align: center;
+        align-items: flex-start;
+      }
+      
+      .navbar .menu-items li {
+        margin-bottom: 1.2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+      
+      .nav-container input[type="checkbox"]:checked ~ .menu-items {
+        transform: translateX(0);
+      }
+      
+      .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+        transform: rotate(45deg);
+      }
+      
+      .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+        transform: scaleY(0);
+      }
+      
+      .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+        transform: rotate(-45deg);
+      }
+      
+      .nav-container input[type="checkbox"]:checked ~ .logotipe{
+        display: none;
+      }
+      
+      
+      .header {position: fixed;
+          top: 0;
+          left: 0;
+           width: 100%;
+           z-index: 100;
+          background-color:transparent;
+          color: #fff;
+      }
+      
+      .header .navbar-opaque {
+          background-color:#333; opacity: 0.9;
+      width: 100%;}
+      
+          
+      section#inicio {
+          padding-top: 100px;}
+      
+      .barra {display: flex;align-items: center;justify-content: space-between;}
+      
+      nav ul {                            /*nav ul solo para los links*/
+          display: flex; gap: 20px;
+      }
+      
+      nav ul li {              /*nav ul li solo para el link de la lista*/
+          margin-right: 30px;
+      }
+      
+      nav a {                      /*nav a pa todo*/
+          color: #fff;
+          text-decoration: none;
+          font-weight: 600;
+          position: relative;
+          
+      }
+      
+      nav ul li a::before {        /*esto es para las lineas */
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: -3px;
+          left: 0;
+          background-color: #02A9F7;
+          visibility: hidden;
+          transform: scaleX(0);
+          transition: all 0.3s ease-in-out;
+        }
+        
+        nav ul li a:hover::before {
+          visibility: visible;
+          transform: scaleX(1);
+        }
+      
+        nav ul li a:hover {transition: all 0.3s ease-in-out; opacity: 0.8;}
+      
+      
+      /* Estilos para la sección "Bienvenidos a nuestro estudio de arquitectura" */
+      
+      section#inicio {
+      
+          background-image: url(11.4_16\ -\ Foto\ Editada.jpg); 
+          padding: 50px;
+          height: 700px;
+          background-size: cover;
+        background-position: center;
+      }
+      h1 {text-align: left; margin-left:30px;margin-top: 60px;font-size: 50px; margin-block-end: 0px;color:#fff;font-family: "Gilroy--bold";}
+      .parrafo__inicio {text-align: left ; margin-left: 35px;color: #fff; font-size: 35px; margin-block-start: 5px; margin-block-end: 15px;}
+      
+      .contacto--cta {background: #02577A;text-decoration: none;font-size: 18px;
+          border-radius: 40px; padding: 12px; position: relative;display:inline-block;color: #fff;margin-left: 35px;
+          transition: all 1s;
+          overflow: hidden;}
+      
+          .contacto--cta::before {
+              content: '';
+              position: absolute;
+              height: 100%;
+              width: 0%;
+              top: 0;
+              left: -40px;
+              transform: skewX(45deg);
+              background-color: rgb(255, 255, 255);
+              z-index: -1;
+              transition: all 1s;
+            }
+      
+            .contacto--cta:hover::before {
+              width: 160%;
+            }
+      
+            .contacto--cta:hover {background-color: #fff;color: #02577A;}
+      
+            .links--hero {display: flex;gap:15px; align-items: center;}
+            .trabajos--cta {text-decoration: none;font-size: 18px;
+              border-radius: 40px; padding: 10px;position: relative;text-decoration: none;display:inline-block;color: #fff; border: 1px solid #fff;
+              transition: all 1s; overflow: hidden;}
+              .trabajos--cta::before {
+                  content: '';
+                  position: absolute;
+                  height: 100%;
+                  width: 0%;
+                  top: 0;
+                  left: -40px;
+                  transform: skewX(45deg);
+                  background-color: rgb(255, 255, 255);
+                  z-index: -1;
+                  transition: all 1s;
+                }
+          
+                .trabajos--cta:hover::before {
+                  width: 160%;
+                }
+          
+                .trabajos--cta:hover {background-color: #fff;color: #02577A;}
+          
+      /* Estilos para la sección "Acerca de nosotros" */
+      
+      .imagen__about {margin-left:0px; padding-left: 0; position: relative; right: 50px;}
+      section#nosotros {
+          background-color: #f2f2f2;
+          padding: 50px;
+      }
+      .about__ {display: flex;justify-content: flex-end;}
+      .paragraph__nosotros {margin-right: 40px; font-size:16px;}
+      .title__nosotros {font-size: 45px;font-family: "gilroy--bold";margin-block-start: 0px;opacity: 0.8;}
+      .caja-azul {padding: 15px;background-color: #02577A; color: #fff;font-family:"gilroy--bold"; width: 250px;position: relative; top: -220px; left: 1000px;}
+       
+      /* Estilos para la sección "Servicios" */
+      section#servicios {background-color: #f2f2f2;position: relative; bottom: 130px;}
+      .title__servicios {font-size: 45px;font-family: "gilroy--bold";margin-block-start: 0px;opacity: 0.8;}
+      .CARTAS {display: flex; justify-content: center;flex-wrap: wrap;}
+      .card {
+        background-color: #fff;
+          display: inline-block;
+          width: 389px;
+          margin: 15px;
+          border-radius: 7px;
+          box-shadow: 5px 4px 12px 2px rgba(48, 47, 47, 0.3);
+          text-align: center;
+        }
+  
+        
+        .card img {
+          width: 90px;
+          height: 90px;
+          margin: 20px auto 0;
+          display: block;
+        }
+        
+        .card-content {
+          padding:  10px 20px 20px 20px;
+        }
+        
+        .card h2 {
+          font-family: "gilroy--bold";
+          opacity: 0.8;
+          font-size: 1.5rem;
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+        
+        .card p {
+          font-size: 1rem;
+          line-height: 1.4;
+        }
+
+/* Estilos para la sección "Portafolio" */
+.Portafolio__title {font-size: 45px;font-family: "gilroy--bold";margin-block-start: 40px;opacity: 0.8;}
+.imagenes__trabajo {display: flex;flex-wrap: wrap; justify-content: center; gap: 30px; margin: 50px;}
+li img:hover {opacity: 0.5; transition: opacity 0.3s ease-in-out;}
+.imagenes__trabajo li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.image__wrapper {
+  background-color: #333;
+  position: relative;
+  display: inline-block;
+}
+
+.image__text {
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+
+.image__wrapper:hover .image__text {
+  opacity: 1;
+}
+
+/* Estilos para la sección "Contacto" */
+
+section#contacto {
+  background-color: #f2f2f2;
+}
+
+.contacto__title {font-size: 45px;font-family: "gilroy--bold"; margin-top:30px;opacity: 0.8;}
+.contacto-body {display: flex; gap: 76px; margin-left: 90px;}
+.contenido h3 {font-size: 34px; font-weight: 900;}
+.nota { background: rgba(217, 217, 217, 0.51);border-radius: 7px; padding: 10px; width: 75%;}
+.contact-cta {background: #333; padding: 20px; border-radius: 40px; color: #f2f2f2;display: inline-block;text-decoration: none; font-weight: 600;}
+.img-contacto {width: 580px;border-radius: 0 80px 0 0px;}
+.contact-cta:hover {background-color: #494949;}
+
+/*Cosas para el map*/
+
+.numeros {display: flex; justify-content: center; gap: 120px; margin-top:0px;}
+.numeros h2 {font-family: "gilroy--bold";font-size: 100px; margin-block-end: 0px; color: #02577A; margin: 0;}
+.numeros p {margin-block-start: 0px;margin-block-end: 60px; font-size:22px;}
+.map { display: flex; flex-direction: column; align-items: center; margin-block-end: 30px;}
+.map img {margin-bottom: 30px;}
+
+/* Estilos para el pie de página */
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  top: 220px;
+}
+
+.centro__footer {display: flex; flex-direction: column; align-items: center;}
+.tittle__footer {font-size: 34px;margin-block-end:0px;}
+
+.links__footer {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  list-style: none;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.links__footer li {
+  margin-right: 20px;
+}
+
+.links__footer li:last-child {
+  margin-right: 0;
+}
+
+.links__footer a {
+  color: #f2f2f2;
+  text-decoration: none;
+  
+}
+
+.links__footer a:hover {
+  color: #02A9F7;
+  background-color: #333;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.links__footer a:hover span {
+  padding: 0;
+}
+.redes-icons {display: flex; gap: 10px;}
+.redes-icons img {padding: 3px; border-radius: 6px;}
+.redes-icons img:hover {background: #02577A; transition: background-color 0.2s ease-in-out;}
+
+@media (max-width:600px) 
+{.navbar {display:flex; align-items: center;}
+.logotipo {margin-left: 300px; font-size:18px;}
+ .imagen__about { width: 510px;height: 530px; position: relative;left:-400px;}
+
+      section#nosotros { 
+          background-color: #f2f2f2;
+          padding: 50px;
+          padding-top:20px;
+      }
+      .about__ {
+        flex-direction: column;
+        align-items: center;
+      }
+      .caja-azul {display: none;}
+
+      .contacto__title {font-size: 45px;font-family: "gilroy--bold"; margin-top:30px;opacity: 0.8;}
+.contacto-body {display: flex; gap: 76px; margin-left: 90px;}
+.contenido h3 {font-size: 22px; font-weight: 900;}
+.contact-p {font-size: 14px;}
+.nota { background: rgba(217, 217, 217, 0.51);border-radius: 7px; padding: 10px; width: 85%; font-size: 11px;}
+.contact-cta {background: #333; padding: 20px; border-radius: 40px; color: #f2f2f2;display: inline-block;text-decoration: none; font-weight: 600;}
+.trabajos--cta {text-decoration: none;font-size: 16px;
+  border-radius: 40px; padding: 10px;position: relative;text-decoration: none;display:inline-block;color: #fff; border: 1px solid #fff;
+  transition: all 1s; overflow: hidden;}
+.img-contacto {display: none;}
+.contact-cta:hover {background-color: #494949;}
+.title__servicios {font-size: 45px;font-family: "gilroy--bold";margin-block-start: 25px;opacity: 0.8;}
+.barra ul {display: none;}
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  top: 220px;
+}
+
+.centro__footer {display: flex; flex-direction: column; align-items: center;}
+.tittle__footer {font-size: 34px;margin-block-end:0px;}
+
+.links__footer {
+display: none;
+}
+
+.links__footer li {
+  margin-right: 20px;
+}
+
+.links__footer li:last-child {
+  margin-right: 0;
+}
+
+.links__footer a {
+  color: #f2f2f2;
+  text-decoration: none;
+  
+}
+
+.links__footer a:hover {
+  color: #02A9F7;
+  background-color: #333;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.links__footer a:hover span {
+  padding: 0;
+}
+.redes-icons {display: flex; gap: 10px;}
+.redes-icons img {padding: 3px; border-radius: 6px;}
+.redes-icons img:hover {background: #02577A; transition: background-color 0.2s ease-in-out;}
+.numeros {display: flex; ;justify-content: center; gap: 10px; margin-top:0px;}
+.numeros h2 {font-family: "gilroy--bold";font-size: 50px; margin-block-end: 0px; color: #02577A; margin: 0;}
+.numeros p {margin-block-start: 0px;margin-block-end: 60px; font-size:12px;}
+.map { display: flex; flex-direction: column; align-items: center; margin-block-end: 30px;}
+.map img {margin-bottom: 30px;width: 400px;}
+h1 {text-align: left; margin-left:30px;margin-top: 60px;font-size: 30px; margin-block-end: 0px;color:#fff;font-family: "Gilroy--bold";}
+.parrafo__inicio {text-align: left ; margin-left: 30px;color: #fff; font-size: 22px; margin-block-start: 5px; margin-block-end: 15px;}
+
+.contacto--cta {background: #02577A;text-decoration: none;font-size: 16px;
+    border-radius: 40px; padding: 12px; position: relative;display:inline-block;color: #fff;margin-left: 35px;
+    transition: all 1s;
+    overflow: hidden;}
+    .title__servicios {font-size: 40px;}}
+ /*------------------------------------------------*/
+@media (max-width:1500px) { .imagen__about {margin-left:0px; padding-left: 0; position: relative; right: 50px;}
+.imagen__about img {width: 813px; height: 516px;}
+section#nosotros {
+    background-color: #f2f2f2;
+    padding: 50px;}
+.about__ {display: flex;justify-content: flex-end;}
+.paragraph__nosotros {margin-right: 0px; font-size:16px; margin-bottom:80px; margin-left: 0px;}
+.title__nosotros {font-size: 40px;font-family: "gilroy--bold";margin-block-start: 0px;opacity: 0.8;}
+.caja-azul {padding: 15px;background-color: #02577A; color: #fff;font-family:"gilroy--bold"; width: 250px;position: relative; top: -220px; left: 700px;}
+
+}
+
+@media (max-width:1600px) {.imagenes__trabajo a img {width: 370px;}}
+  /*------------------------------------------------*/
+@media (min-width:2000px) { .paragraph__nosotros {margin-right: 0px; font-size:21px; margin-bottom:80px; margin-left: 0px;}
+.imagenes__trabajo a img {width: 600px;}}
+
+/*--------------------------------------------------------*/
+@media (max-width:430px) {.navbar {display:flex; align-items: center;}
+.logotipo {margin-left: 250px; font-size:18px;}
+ .imagen__about { width: 310px; position: relative;left:-460px;}
+      section#nosotros { 
+          background-color: #f2f2f2;
+          padding: 50px;
+          padding-top:20px;
+      }
+      .numeros {display: flex; ;justify-content: center; gap: 10px; margin-top:0px;}
+      .numeros h2 {font-family: "gilroy--bold";font-size: 50px; margin-block-end: 0px; color: #02577A; margin: 0;}
+      .numeros p {margin-block-start: 0px;margin-block-end: 60px; font-size:10px;}
+      .map { display: flex; flex-direction: column; align-items: center; margin-block-end: 30px;}
+      .map img {margin-bottom: 30px;width: 355px;}
+      .imagenes__trabajo a img {width: 350px;}}
+      
+
+      /*--------------------------------------------------------*/
+@media (max-width:370px) {.navbar {display:flex; align-items: center;}
+.logotipo {margin-left: 250px; font-size:18px;}
+ .imagen__about { width: 380px; position: relative;left:-480px;}
+      section#nosotros { 
+          background-color: #f2f2f2;
+          padding: 50px;
+          padding-top:20px;
+      }
+      .numeros {display: flex; ;justify-content: center; gap: 10px; margin-top:0px;}
+      .numeros h2 {font-family: "gilroy--bold";font-size: 50px; margin-block-end: 0px; color: #02577A; margin: 0;}
+      .numeros p {margin-block-start: 0px;margin-block-end: 60px; font-size:10px;}
+      .map { display: flex; flex-direction: column; align-items: center; margin-block-end: 30px;}
+      .map img {margin-bottom: 30px;width: 290px;}
+      h1 {text-align: left; margin-left:30px;margin-top: 60px;font-size: 30px; margin-block-end: 0px;color:#fff;font-family: "Gilroy--bold";}
+      .parrafo__inicio {text-align: left ; margin-left: 30px;color: #fff; font-size: 18px; margin-block-start: 5px; margin-block-end: 15px;}
+      
+      .contacto--cta {background: #02577A;text-decoration: none;font-size: 13px;
+          border-radius: 40px; padding: 12px; position: relative;display:inline-block;color: #fff;margin-left: 35px;
+          transition: all 1s;
+          overflow: hidden;}
+          .title__servicios {font-size: 40px;}
+          .trabajos--cta {text-decoration: none;font-size: 13px;
+            border-radius: 40px; padding: 10px;position: relative;text-decoration: none;display:inline-block;color: #fff; border: 1px solid #fff;
+            transition: all 1s; overflow: hidden;}
+            .imagenes__trabajo a img {width: 290px;}
+            .contact-cta {background: #333; padding: 15px; font-size: 12px;}}
+
+      

@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* ----------------------------------------------------- */
+/* Estilos para la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilos para las celdas de encabezado */
+.table thead th {
+  border: 1px solid #ddd; /* Bordes de 1 píxel sólido en color gris claro */
+  background-color: #343a40; /* Color de fondo oscuro para el encabezado */
+  color: #fff; /* Texto en color blanco */
+  padding: 8px; /* Añade un relleno de 8 píxeles alrededor del contenido */
+  text-align: center; /* Centra el texto en las celdas del encabezado */
+}
+
+/* Estilos para las celdas de datos */
+.table tbody td {
+  border: 1px solid #ddd; /* Bordes de 1 píxel sólido en color gris claro */
+  background-color: #495057; /* Color de fondo oscuro para las celdas de datos */
+  color: #fff; /* Texto en color blanco */
+  padding: 8px; /* Añade un relleno de 8 píxeles alrededor del contenido */
+  text-align: center; /* Centra el texto en las celdas de datos */
+}
+
+/* Estilos para las filas impares (si es necesario) */
+.table tbody tr:nth-child(odd) {
+  background-color: #343a40; /* Color de fondo más oscuro para filas impares */
+}
+
+/* Estilos para los botones en las celdas de acción */
+.table tbody button {
+  color: #fff; /* Texto en color blanco */
+}
+
+/* Estilos adicionales para los botones (si es necesario) */
+
+

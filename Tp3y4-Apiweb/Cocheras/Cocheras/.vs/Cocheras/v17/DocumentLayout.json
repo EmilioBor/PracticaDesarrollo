@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24C4A9F0-2515-42DF-826E-169B6D6FDFC0}|Cocheras\\Cocheras.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\cocheras\\controllers\\autoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C4A9F0-2515-42DF-826E-169B6D6FDFC0}|Cocheras\\Cocheras.csproj|solutionrelative:cocheras\\controllers\\autoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C4A9F0-2515-42DF-826E-169B6D6FDFC0}|Cocheras\\Cocheras.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\cocheras\\controllers\\cocheracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C4A9F0-2515-42DF-826E-169B6D6FDFC0}|Cocheras\\Cocheras.csproj|solutionrelative:cocheras\\controllers\\cocheracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C4A9F0-2515-42DF-826E-169B6D6FDFC0}|Cocheras\\Cocheras.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\cocheras\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24C4A9F0-2515-42DF-826E-169B6D6FDFC0}|Cocheras\\Cocheras.csproj|solutionrelative:cocheras\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C4A9F0-2515-42DF-826E-169B6D6FDFC0}|Cocheras\\Cocheras.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\cocheras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C4A9F0-2515-42DF-826E-169B6D6FDFC0}|Cocheras\\Cocheras.csproj|solutionrelative:cocheras\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2420D2-1F1D-4509-8947-6EA66231C65A}|Services\\Services.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\services\\autosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2420D2-1F1D-4509-8947-6EA66231C65A}|Services\\Services.csproj|solutionrelative:services\\autosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85045292-AC51-4B55-8111-8CE034B4B9BD}|Core\\Core.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\core\\response\\autosdtoout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85045292-AC51-4B55-8111-8CE034B4B9BD}|Core\\Core.csproj|solutionrelative:core\\response\\autosdtoout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85045292-AC51-4B55-8111-8CE034B4B9BD}|Core\\Core.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\core\\response\\cocheradtoout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85045292-AC51-4B55-8111-8CE034B4B9BD}|Core\\Core.csproj|solutionrelative:core\\response\\cocheradtoout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2420D2-1F1D-4509-8947-6EA66231C65A}|Services\\Services.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\services\\interface\\iautosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2420D2-1F1D-4509-8947-6EA66231C65A}|Services\\Services.csproj|solutionrelative:services\\interface\\iautosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2420D2-1F1D-4509-8947-6EA66231C65A}|Services\\Services.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\services\\cocheraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2420D2-1F1D-4509-8947-6EA66231C65A}|Services\\Services.csproj|solutionrelative:services\\cocheraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E03D755-60BB-4EAF-A399-53290FD21D8E}|Data\\Data.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\data\\models\\autosbdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E03D755-60BB-4EAF-A399-53290FD21D8E}|Data\\Data.csproj|solutionrelative:data\\models\\autosbdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85045292-AC51-4B55-8111-8CE034B4B9BD}|Core\\Core.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\core\\request\\autosdtoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85045292-AC51-4B55-8111-8CE034B4B9BD}|Core\\Core.csproj|solutionrelative:core\\request\\autosdtoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F2420D2-1F1D-4509-8947-6EA66231C65A}|Services\\Services.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp3y4-apiweb\\cocheras\\cocheras\\services\\interface\\icocheraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F2420D2-1F1D-4509-8947-6EA66231C65A}|Services\\Services.csproj|solutionrelative:services\\interface\\icocheraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutosController.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Cocheras\\Controllers\\AutosController.cs",
+              "RelativeDocumentMoniker": "Cocheras\\Controllers\\AutosController.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Cocheras\\Controllers\\AutosController.cs",
+              "RelativeToolTip": "Cocheras\\Controllers\\AutosController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T19:04:49.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Cocheras\\Program.cs",
+              "RelativeDocumentMoniker": "Cocheras\\Program.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Cocheras\\Program.cs",
+              "RelativeToolTip": "Cocheras\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvyIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:04:48.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CocheraController.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Cocheras\\Controllers\\CocheraController.cs",
+              "RelativeDocumentMoniker": "Cocheras\\Controllers\\CocheraController.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Cocheras\\Controllers\\CocheraController.cs",
+              "RelativeToolTip": "Cocheras\\Controllers\\CocheraController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:21:42.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CocheraService.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\CocheraService.cs",
+              "RelativeDocumentMoniker": "Services\\CocheraService.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\CocheraService.cs",
+              "RelativeToolTip": "Services\\CocheraService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:09:47.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutosService.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\AutosService.cs",
+              "RelativeDocumentMoniker": "Services\\AutosService.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\AutosService.cs",
+              "RelativeToolTip": "Services\\AutosService.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAuwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:09:18.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutosDtoOut.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Response\\AutosDtoOut.cs",
+              "RelativeDocumentMoniker": "Core\\Response\\AutosDtoOut.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Response\\AutosDtoOut.cs",
+              "RelativeToolTip": "Core\\Response\\AutosDtoOut.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:03:49.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CocheraDtoOut.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Response\\CocheraDtoOut.cs",
+              "RelativeDocumentMoniker": "Core\\Response\\CocheraDtoOut.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Response\\CocheraDtoOut.cs",
+              "RelativeToolTip": "Core\\Response\\CocheraDtoOut.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:03:54.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAutosService.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\Interface\\IAutosService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IAutosService.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\Interface\\IAutosService.cs",
+              "RelativeToolTip": "Services\\Interface\\IAutosService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:09:57.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Cocheras\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Cocheras\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Cocheras\\appsettings.Development.json",
+              "RelativeToolTip": "Cocheras\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-01T22:42:13.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutosBDContext.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Data\\Models\\AutosBDContext.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\AutosBDContext.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Data\\Models\\AutosBDContext.cs",
+              "RelativeToolTip": "Data\\Models\\AutosBDContext.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T18:50:56.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AutosDtoIn.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Request\\AutosDtoIn.cs",
+              "RelativeDocumentMoniker": "Core\\Request\\AutosDtoIn.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Request\\AutosDtoIn.cs",
+              "RelativeToolTip": "Core\\Request\\AutosDtoIn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T18:36:58.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICocheraService.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\Interface\\ICocheraService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ICocheraService.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\Interface\\ICocheraService.cs",
+              "RelativeToolTip": "Services\\Interface\\ICocheraService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:09:53.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

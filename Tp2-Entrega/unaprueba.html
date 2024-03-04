@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visor 360 con Descripción</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0 20px; /* Margen a los lados */
+    }
+
+    .content {
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #666;
+    }
+  </style>
+  <script src="https://static.kuula.io/embed.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="content">
+      <h1>Recorrido Visual de 360 Grados</h1>
+      <p>Aquí encontrarás una experiencia de 360 grados. ¡Explora y disfruta!</p>
+    </div>
+    <script 
+      src="https://static.kuula.io/embed.js" 
+      data-kuula="https://kuula.co/share/5bZbK?logo=1&info=1&fs=1&vr=0&thumbs=1" 
+      data-width="100%" 
+      data-height="640px"
+    ></script>
+  </div>
+
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .gallery-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .gallery-image {
+      width: 300px;
+      height: auto;
+      margin: 0 10px;
+      cursor: pointer; /* Cursor de clic para indicar que la imagen es interactiva */
+    }
+
+    .gallery-image:hover {
+      transform: scale(1.1); /* Efecto de escala al pasar el ratón sobre la imagen */
+    }
+
+    @media (max-width: 768px) {
+      .gallery-container {
+        flex-direction: column;
+      }
+    }
+
+    /* Estilos para la imagen agrandada */
+    .enlarged-image-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+    }
+
+    .enlarged-image {
+      max-width: 90%;
+      max-height: 90%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="gallery-container">
+    <img class="gallery-image" src="el eladio.png" alt="Imagen 1" onclick="enlargeImage('el eladio.png')">
+    <img class="gallery-image" src="maxresdefault.jpg" alt="Imagen 2" onclick="enlargeImage('maxresdefault.jpg')">
+    <img class="gallery-image" src="ela.jpg" alt="Imagen 3" onclick="enlargeImage('ela.jpg')">
+  </div>
+
+  <!-- Contenedor para la imagen agrandada -->
+  <div class="enlarged-image-container" onclick="closeImage()">
+    <img class="enlarged-image" id="enlarged-img" alt="Imagen agrandada">
+  </div>
+
+  <script>
+    function enlargeImage(src) {
+      var enlargedImage = document.getElementById('enlarged-img');
+      enlargedImage.src = src;
+      document.querySelector('.enlarged-image-container').style.display = 'flex';
+    }
+
+    function closeImage() {
+      document.querySelector('.enlarged-image-container').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
+
+
+</body>
+</html>

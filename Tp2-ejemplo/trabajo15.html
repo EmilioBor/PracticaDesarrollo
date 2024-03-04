@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Masterplan City Bell</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="ISOTIPO (1).ico" type="image/x-icon">
+	<link rel="stylesheet" href="estilostrabajo15.css">
+</head>
+<body>
+	<script>
+        $(document).ready(function() {
+         $(window).scroll(function() {  
+           if ($(this).scrollTop() > 0) {
+             $('header nav').addClass('navbar-opaque');
+           } else {
+             $('header nav').removeClass('navbar-opaque');
+           }
+         });
+       });</script>
+<div class="imagen-fondo">
+  <div class="imagen"></div>
+      </div>
+
+<section id="inicio">
+        <header class="header">
+           <nav >
+                <div class="barra">
+             <a class=logotipo href="index.html"><h2>NEXUS</h2></a>
+                <ul>
+                    <li><a href="index.html">Nosotros</a></li>
+                    <li><a href="index.html">Servicios</a></li>
+                    <li><a href="index.html">Portafolio</a></li>
+                    <li><a class="contacto__" href="index.html">Contacto</a></li>
+                </ul>
+            </div>
+		</nav>  
+	</header>
+	<section id=#trabajo>
+	<div class="titulos">
+	<H1 class="title_proyect">COMPLEJO DE LUZ Y FUERZA </H1>
+	<h3 class="ubicacion"> <img src="Pin drop.png" height="26px">La Plata, Buenos Aires</h3> 
+</div>
+<div class="descripcion"><h4>Acerca del proyecto</h4>
+  <p> Complejo recreativo y deportivo localizado en un gran predio verde. <br>
+     Espacios vinculados por un circuito que recorre la totalidad del predio, <br>
+      generando distintos sectores de actividades. El mismo cuenta con un Centro <br>
+       de Eventos como edificio principal, perteneciente al complejo Luz y Fuerza <br>
+        en City Bell, La Plata, Argentina.</p></div>
+</section>
+
+<div class="imagenes"><img class=image1 src="RENDER FINAL 0.jpg" width=400px alt="Imagen 1" onclick="enlargeImage('RENDER FINAL 0.jpg')"> 
+  <img class=image2 src="RENDER FINAL 1.jpg" width=400px alt="Imagen 2" onclick="enlargeImage('RENDER FINAL 1.jpg')"> 
+  <img class=image3 src="RENDER FINAL 3 CORREGIDO.jpg" width=400px alt="Imagen 3" onclick="enlargeImage('RENDER FINAL 3 CORREGIDO.jpg')"> 
+</div>
+<!--------------------------------- Contenedor para la imagen agrandada --------------------->
+<div class="enlarged-image-container" onclick="closeImage()">
+  <img class="enlarged-image" id="enlarged-img" alt="Imagen agrandada">
+</div>
+ <!-------------------------------------------------------------------javascript ACA--------------------------->
+ <script>
+  function enlargeImage(src) {
+    var enlargedImage = document.getElementById('enlarged-img');
+    enlargedImage.src = src;
+    document.querySelector('.enlarged-image-container').style.display = 'flex';
+  }
+
+  function closeImage() {
+    document.querySelector('.enlarged-image-container').style.display = 'none';
+  }
+</script>
+<div class="video-NY">
+  <!-- Etiqueta de video -->
+  <video width="640" height="360" controls>
+      <source src="anteproyecto.mp4" type="video/mp4">
+      Tu navegador no soporta el tag de video.
+  </video>
+<div class="texto">
+  <!-- Título -->
+  <h2 class="titulo-video">Una perspectiva en movimiento</h2>
+  <!-- Descripción -->
+  <p class="descripcion-video">Explora en profundidad este trabajo a través del siguiente video</p>
+</div>
+</div class="video-NY">
+  <footer>
+    <ul class="links__footer">
+      <li><a href="index.html"><span>Inicio</span></a></li>
+      <li><a href="index.html"><span>Nosotros</span></a></li>
+      <li><a href="index.html"><span>Servicios</span></a></li>
+      <li><a href="index.html"><span>Trabajos</span></a></li>
+      <li><a href="index.html"><span>Contacto</span></a></li>
+    </ul>
+    <div class="centro__footer">
+      <h4 class="tittle__footer">N E X U S</h4>
+      <p>Derechos reservados © 2023 Nexusarq</p>
+    </div>
+    <div class="redes">
+      <p class="redes__footer">Seguinos en nuestras redes</p>
+      <div class="redes-icons">
+        <a target="_blank" href="https://www.instagram.com/nexus_vis/"><img src="8-instagram.svg" width="48px" ></a>
+       <a target="_blank" href="https://www.facebook.com/profile.php?id=100064847650987"> <img src="Vector.png" width="42px" ></a>
+        <a target="_blank" href="https://www.behance.net/nexusvisualization?tracking_source=search_users|nexus"><img src="behance-2161.svg" width="48px" > </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

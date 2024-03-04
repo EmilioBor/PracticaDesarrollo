@@ -1,0 +1,337 @@
+@font-face {
+  font-family:"Gilroy";
+  src: url(Gilroy-FREE/Gilroy-Light.otf);}
+
+  @font-face {
+      font-family:"Gilroy--bold";
+      src: url(Gilroy-FREE/Gilroy-ExtraBold.otf);}
+
+      body {
+        font-family: "Gilroy", sans-serif;
+        margin: 0;
+    }
+    
+    h1, h2 {
+        text-align: center;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logotipo {margin-left: 40px;}
+    /* Estilos para el encabezado */
+    
+    .container {
+      max-width: 1050px;
+      width: 90%;
+      margin: auto;
+    }
+    
+    .navbar {display: none;
+      width: 100%;
+      box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+    }
+    
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 62px;
+    }
+    
+    .navbar .menu-items {
+      display: flex;
+    }
+    
+    .navbar .nav-container li {
+      list-style: none;
+    }
+    
+    .navbar .nav-container a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 1.2rem;
+      padding: 0.7rem;
+    }
+    
+    .navbar .nav-container a:hover{
+        font-weight: bolder;
+    }
+    
+    .nav-container {
+      display: block;
+      position: absolute;
+      height: 60px;
+      top: 4px;
+    }
+    
+    .nav-container .checkbox {
+      position: absolute;
+      display: block;
+      height: 32px;
+      width: 32px;
+      top: 20px;
+      left: 20px;
+      z-index: 5;
+      opacity: 0;
+      cursor: pointer;
+    }
+    
+    .nav-container .hamburger-lines {
+      display: block;
+      height: 26px;
+      width: 32px;
+      position: absolute;
+      top: 17px;
+      left: 20px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .nav-container .hamburger-lines .line {
+      display: block;
+      height: 4px;
+      width: 100%;
+      border-radius: 10px;
+      background: #ffffff; 
+    }
+    
+    .nav-container .hamburger-lines .line1 {
+      transform-origin: 0% 0%;
+      transition: transform 0.4s ease-in-out;
+    }
+    
+    .nav-container .hamburger-lines .line2 {
+      transition: transform 0.2s ease-in-out;
+    }
+    
+    .nav-container .hamburger-lines .line3 {
+      transform-origin: 0% 100%;
+      transition: transform 0.4s ease-in-out;
+    }
+    
+    
+    .navbar .menu-items {
+      padding-top: 120px;
+      background-color: rgba(19, 18, 18, 0.58);
+      height: 100vh;
+      width: 100%;
+      transform: translate(-150%);
+      display: flex;
+      flex-direction: column;
+      padding-left: 4px;
+      transition: transform 0.5s ease-in-out;
+      text-align: center;
+      align-items: flex-start;
+    }
+    
+    .navbar .menu-items li {
+      margin-bottom: 1.2rem;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    
+    .nav-container input[type="checkbox"]:checked ~ .menu-items {
+      transform: translateX(0);
+    }
+    
+    .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+      transform: rotate(45deg);
+    }
+    
+    .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+      transform: scaleY(0);
+    }
+    
+    .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+      transform: rotate(-45deg);
+    }
+    
+    .nav-container input[type="checkbox"]:checked ~ .logotipe{
+      display: none;
+    }
+    
+    
+    .header {position: fixed;
+        top: 0;
+        left: 0;
+         width: 100%;
+         z-index: 100;
+        background-color:transparent;
+        color: #fff;
+    }
+    
+    .header .navbar-opaque {
+        background-color:#333; opacity: 0.9;
+    width: 100%;}
+    
+        
+    section#inicio {
+        padding-top: 100px;}
+    
+    .barra {display: flex;align-items: center;justify-content: space-between;}
+    
+    nav ul {                            /*nav ul solo para los links*/
+        display: flex; gap: 20px;
+    }
+    
+    nav ul li {              /*nav ul li solo para el link de la lista*/
+        margin-right: 30px;
+    }
+    
+    nav a {                      /*nav a pa todo*/
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        position: relative;
+        
+    }
+    
+    nav ul li a::before {        /*esto es para las lineas */
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: -3px;
+        left: 0;
+        background-color: #02A9F7;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+      }
+      
+      nav ul li a:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+      }
+    
+      nav ul li a:hover {transition: all 0.3s ease-in-out; opacity: 0.8;}
+      
+      /* Estilos para la sección "Bienvenidos a nuestro estudio de arquitectura" */
+      
+      .imagen-fondo {background-image: url(WHITE.jpg);
+        background-size: cover;
+        background-position: center;
+      width: 100%; height: 800px;}
+      .imagen {width: 100%; height: 100%;}
+      .image1 {transition: transform 0.3s ease-in-out;cursor: pointer}
+      .image1:hover {transform: scale(1.1);}
+      
+      .image2 {transition: transform 0.3s ease-in-out;cursor: pointer}
+      .image2:hover {transform: scale(1.1);}
+      
+      .image3 {transition: transform 0.3s ease-in-out; cursor: pointer}
+      .image3:hover {transform: scale(1.1);}
+      
+      .titulos {display: flex; justify-content:space-between; align-items: center; color: #fff;padding: 15px; background: #333; width: 60%; position: absolute; top: 740px; margin-left: 280px; padding: 30px;}
+      .title_proyect {font-family: "Gilroy--bold"; font-size: 45px; margin-block-start: 0px; margin-block-end: 0px;}
+      .ubicacion {margin-block-start: 0px; margin-block-end: 0px;}
+      .descripcion { display: flex; align-items: center;flex-direction: column; }
+      .descripcion h4 {color: #02577A; font-family: "Gilroy--bold"; font-size: 28px; ;margin-block-end: 0px; margin-block-start: 0px; }
+      .imagenes {display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+      
+      .descripcion p {margin-block-end: 20px;}
+
+        /* Estilos para la imagen agrandada */
+    .enlarged-image-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+    }
+    .enlarged-image {
+      max-width: 90%;
+      max-height: 90%;
+    }
+      
+      footer {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      .centro__footer {display: flex; flex-direction: column; align-items: center;}
+      .tittle__footer {font-size: 34px;margin-block-end:0px;}
+      
+      .links__footer {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        list-style: none;
+        margin: 0;
+        padding-top: 30px;
+      }
+      
+
+      .links__footer li {
+        margin-right: 20px;
+      }
+      
+      .links__footer li:last-child {
+        margin-right: 0;
+      }
+      
+      .links__footer a {
+        color: #f2f2f2;
+        text-decoration: none;
+        
+      }
+      .redes-icons {display: flex; gap: 10px;}
+.redes-icons img {padding: 3px; border-radius: 6px;}
+.redes-icons img:hover {background: #02577A; transition: background-color 0.2s ease-in-out;}
+
+      
+      .links__footer a:hover {
+        color: #02A9F7;
+        background-color: #333;
+        transition: background-color 0.2s ease-in-out;
+      }
+      
+      .links__footer a:hover span {
+        padding: 0;
+      }
+
+      @media (max-width:600px) {
+        .titulos {display: flex; justify-content:space-between;
+           align-items: center; color: #fff;padding: 20px; background: #333;
+            width: 70%; position: absolute; top: 550px; margin-left: 80px; padding: 15px;} 
+            .title_proyect {font-family: "Gilroy--bold"; font-size: 35px;
+               margin-block-start: 0px; margin-block-end: 0px;} .imagen-fondo {background-image: url(WHITE.jpg);
+                background-size: cover;
+                background-position: center;
+              width: 100%; height: 600px;} .ubicacion {font-size: 15px;}
+              .barra ul {display: none;}
+              .links__footer {display: none;}
+              footer {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                position: relative;
+                top: 220px;
+              }
+            } 
+              
+              
+

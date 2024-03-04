@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Core\\Core.csproj"
+              },
+              "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp3y4-Apiweb\\Cocheras\\Cocheras\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

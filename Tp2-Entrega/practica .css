@@ -1,0 +1,60 @@
+* {margin: 0;
+box-sizing: border-box; font-family:Arial, Helvetica, sans-serif}     
+.container {width: 90%;overflow: hidden;margin: auto;padding: 80px,0px}
+.hero {background-color: #A601FE; color: #fff;padding: 0px;text-align: center;}
+.nav {background-color: #fff;}  
+.nav-hamburger img {width: 34px;}      
+.nav__figure img {width: 120px;}           
+.nav__container {height: 80px;
+     display: flex;
+     align-items: center; 
+     justify-content: space-between;}
+     .nav__links  {display: none; text-decoration: none;}      
+           
+.hero main {width: 100%;padding: 0;}
+.hero main::before {content: "";
+     display:block;
+     height: 370px;
+     background-image:url(HABLA\ CLARO\ ELADIO.jpg);
+     background-size: cover;
+     background-position: center;}  
+.hero__texts {width: 90%;margin: auto;padding: 80px 0; }  
+.tittle {font-size:45px; letter-spacing: 3px;}
+.hero__paragraph {line-height: 1,5;margin-top:1em;}
+.cta {display:inline-block; border: 1px solid #FBE101;color: #FBE101;text-decoration: none; padding:1em 2.2em; margin-top: 1em;}
+.cta:hover {background: #FBE101; color: #A601FE;}
+.different__container {background: #fff;color: rgb(24, 24, 24);text-align: center;}
+.different__icon {width: 62px;padding-top: 10px;}
+.title--different {padding-top: 1.5em;}
+.title--different::before {content:"";display: block;margin: auto;background-color: #A601FE;width: 100px;height: 2px;}
+.different__items {margin-top: 2em;display: flex;flex-direction: column;gap:3em; padding-bottom: 1em;}
+.find {padding: 80px, 0px}
+.find__container {height: 400px;padding-top: 40px; background-color: #A601FE;color: #fff;text-align: center;}
+.title--find {padding-bottom: 30px;font-size: 30px;}
+.title--find::before {content:"";display: block;margin: auto;background-color: #FBE101;width: 100px;height: 2px;}
+.footer {background-color: #f2f2f2;margin-top: 20px;}
+.footer__brand {display: flex; flex-direction:column; gap: 1.5em;padding-bottom: 1.5em;border-bottom: 1px solid #A601FE;align-items: center;}
+/*.footer__media {display: flex;flex-direction: column;} ESTO ES PA UBICARLOS UNO ARRIBA DEL OTRO*/
+.footer__picture img {width: 120px;}
+.footer__social img {width: 40px;}
+.footer__sociales img {width:64px}
+.footer__title {padding-top: 30px;font-weight: 600;}
+
+@media (min-width:768px) {.nav {background-color: #fff;}  
+
+.nav-hamburger img {display: none;}      
+       
+.nav__links {display: flex;gap: 2em; }   
+.nav__link {text-decoration: none;color: #A601FE;font-weight: 500;text-transform: uppercase;padding: 1em 0;}   
+.navlink--cta {border: 1px solid #A601FE; color: #A601FE;text-decoration: none;padding: 2px 10px;}  
+.hero {background-image:linear-gradient(to bottom #A601FE 75% #fff 75%);}        
+.hero main container {width: 90%;padding: 100px 0;display:flex;justify-content: space-between;}
+/*.hero main::before {
+     width: 48%;
+     height: 530px;
+     background-image: url(Eladio.png);position:relative;right: -600px; bottom: 160px; width: 450px;padding: 0;
+     } */ 
+.hero__texts {width: 40%;margin-left: 30px; ;padding: 20px 0 0;text-align: left; }  
+.tittle {font-size:45px; letter-spacing: 3px;}
+.hero__paragraph {line-height: 1,5;margin-top:1em;}}
+/*display:*/

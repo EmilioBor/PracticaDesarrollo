@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
+      "projectUniqueName": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
       "projectName": "Tp1-EmilioBordignon",
-      "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
+      "projectPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
       "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\obj\\",
+      "outputPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es,en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus</title>
+    <link rel="icon" href="ISOTIPO (1).ico" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function() {
+         $(window).scroll(function() {
+           if ($(this).scrollTop() > 0) {
+             $('header nav').addClass('navbar-opaque');
+           } else {
+             $('header nav').removeClass('navbar-opaque');
+           }
+         });
+       });</script>
+      
+<section id="inicio">
+       <header class="header">
+      
+          <nav >
+                <div class="barra">
+             <a class="logotipo" href="#inicio"><h2>NEXUS</h2></a>
+                <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Trabajos</a></li>
+                    <li><a class="contacto__" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="navbar">  <!-- esto es el menu hamburguesa -->
+              <div class="container nav-container">
+                  <input class="checkbox" type="checkbox" name="" id="" />
+                  <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </div> 
+                <div class="menu-items"> 
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#nosotros">Nosotros</a></li>
+                  <li><a href="#portafolio">Trabajos</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+                </div>
+              </div>
+            </div>
+            </nav>  
+        
+        </header>
+        <h1 class="logo">¿Quieres que tu proyecto <br> cobre vida? </h2>
+        <p class="parrafo__inicio">Somos el nexo que te lo permite</p>
+            <div class="links--hero">
+            <a href="#portafolio" class="contacto--cta">Ver trabajos</a> 
+            <a href="#contacto" class="trabajos--cta">Contacto</a>
+        </div>
+    </section>
+
+    <section id="nosotros"> <!----------------------SECCION NOSOTROS------------------------------------------>
+        <h2 class="title__nosotros">Acerca de nosotros</h2>
+        <div class="about__">
+<figure class="imagen__about"><img src="1 VILA.jpg" alt="" srcset="" width="1100px" height="616px"></figure> 
+        <p class="paragraph__nosotros">Ofrecemos servicios de visualización arquitectónica
+           de alta calidad para proyectos de arquitectura, diseño de interiores 
+           y desarrollo inmobiliario. 
+           Nuestro equipo de profesionales altamente capacitados y con experiencia
+            en la industria se dedica a brindar soluciones de visualización personalizadas
+             y efectivas para nuestros clientes. Nos basamos en un enfoque colaborativo 
+             y creativo para cada proyecto, nos esforzamos por superar las expectativas
+            de nuestros clientes en cada oportunidad.</p>
+</div>
+<div class="caja-azul">  <p class="numero"> <img src="Home filled.png"> Buenos Aires, Argentina</p>  <p class="email"> <img src="Email.png"> contacto@nexus-ar.com</p></div>
+    </section>
+
+    <section class="section__servicios" id="servicios">  <!----------------------SECCION SERVICIOS------------------------------------------>
+        <h2 class="title__servicios">Servicios</h2>
+        <div class="CARTAS">
+        <div class="card">
+            <img src="por-imagen.png" alt="Visualización por imagen">
+            <div class="card-content">
+              <h2>Visualización por imagen</h2>
+              <p>Presentamos imágenes fotorrealistas de tus proyectos arquitectónicos para mostrar detalles precisos y atractivos. </p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="por-video.png" alt="Visualización por video">
+            <div class="card-content">
+              <h2>Visualización por video</h2>
+              <p>Creamos animaciones en 3D que muestran tus proyectos desde diferentes ángulos y perspectivas, lo que brinda una experiencia envolvente y detallada. </p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="por-360.png" alt="Visualización por 360">
+            <div class="card-content">
+              <h2>Visualización por 360</h2>
+              <p>Ofrecemos una experiencia interactiva en la que el usuario puede explorar su proyecto virtualmente desde cualquier ángulo y perspectiva para una visión completa.</p>
+            </div>
+          </div>
+        </div>
+
+        <section id="portafolio"> <!------------------------------------------------SECCION TRABAJOS----------------------------------------->
+          <h2 class="Portafolio__title">Trabajos</h2>
+          <ul class="imagenes__trabajo"> 
+             <li><a href="trabajo1.HTML"><div class="image__wrapper"><img src="WHITE.jpg" alt="" width="450px"><div class="image__text">WHITE HOUSE</div></div></a></li>
+              <li><a href="trabajo2.html"><div class="image__wrapper"><img src="11.4_16 - Foto Editada.jpg" width="450px"><div class="image__text">CASA CANARIAS</div></div></a></li>
+              <li><a href="trabajo3.html"><div class="image__wrapper"><img src="2 CAZA.jpg" width="450px"><div class="image__text">CASA CAZA</div></div></a></li>
+              <li><a href="trabajo4.html"><div class="image__wrapper"><img src="1 VILA.jpg" width="450px"><div class="image__text">VILA HOUSE</div></div></a></li>
+              <li><a href="trabajo5.html"><div class="image__wrapper"><img src="1 GOLF.jpg" width="450px"><div class="image__text">GOLF CLUB</div></div></a></li>
+              <li><a href="trabajo6.html"><div class="image__wrapper"><img src="1 MOLINA.jpg" width="450px"><div class="image__text">MOLINA</div></div></a></li>
+             <li><a href="trabajo7.html"><div class="image__wrapper"><img src="1 PORTALES.jpg" width="450px"><div class="image__text">PORTALES</div></div></a></li> 
+              <li><a href="trabajo8.html"><div class="image__wrapper"><img src="WEB SITE/9 NY HOUSE/2 NY.jpg" width="450px"><div class="image__text">NY HOUSE</div></div></a></li>
+              <li><a href="trabajo9.html"><div class="image__wrapper"><img src="WEB SITE/8 COFFEE & LUNCH/1 COFFEE.jpg" width="450px"><div class="image__text">COFFEE & LUNCH </div></div></a></li>
+              <li><a href="trabajo 10.html"><div class="image__wrapper"><img src="4 CONTRAFRENTE.jpg" width="450px"><div class="image__text">CANALES</div></div></a></li> 
+              <li><a href="trabajo11.html"><div class="image__wrapper"><img src="post-produccion_1 - Photo.jpg" width="450px"><div class="image__text">TINY</div></div></a></li> 
+              <li><a href="trabajo12.html"><div class="image__wrapper"><img src="post produccion 4.jpg" width="450px"><div class="image__text">INSACIABLE</div></div></a></li>
+              <li><a href="trabajo13.html"><div class="image__wrapper"><img src="ODONELL_2COMEDOR.jpg" width="450px"><div class="image__text">CASA ODONELL</div></div></a></li> 
+              <li><a href="trabajo14.html"><div class="image__wrapper"><img src="FINALPOSTPRO.jpg" width="450px"><div class="image__text">EDIFICIO 18</div></div></a></li> 
+              <li><a href="trabajo15.html"><div class="image__wrapper"><img src="RENDER FINAL 0.jpg" width="450px"><div class="image__text">MASTERPLAN CITY BELL</div></div></a></li>  
+          </ul>
+      </section>
+      <section class="map"><div class="numeros">
+        <div class="contenedor1"><h2>+30</h2> <p>Clientes contentos</p></div>
+        <div class="contenedor2"><h2>+20</h2> <p>Ciudades alrededor del mundo</p></div>
+        <div class="contenedor3"><h2>+64</h2> <p>Proyectos realizados</p></div>
+        </div>
+      <img src="map.jpg" width="1080px"></section>   
+      <section id="contacto">
+        <h2 class="contacto__title">Contacto</h2>
+        <div class="contacto-body">
+        <img class="img-contacto" src="1 GOLF.jpg" alt="" srcset="" width="675px">
+        <div class="contenido">
+        <h3>Haz realidad tu proyecto: <br>
+          contáctanos hoy mismo</h3>
+        <p class="contact-p">
+          Nos encantaría escuchar acerca de tus proyectos 
+           y cómo podemos ayudarte <br> a dar vida a tus ideas
+           arquitectónicas. Si tienes alguna pregunta, consulta <br>
+           o simplemente deseas obtener más información, no dudes
+           en ponerte en contacto <br>con nosotros. 
+           Estamos aquí para asistirte.
+        </p>
+        <p class="nota"> <img src="Info.png" height="15px"> Tu privacidad es importante para nosotros. Toda la información <br>proporcionada 
+           será tratada de manera confidencial y utilizada únicamente para responder a su consulta.</p>
+        <a href="mailto:contacto@nexus-ar.com" class="contact-cta"> <img src="Gmail_icon_(2020) 1.png" height="15px" > Hablemos de tu proyecto!</a>
+      </div>
+    </div>
+      </section> 
+      
+      <footer>
+        <ul class="links__footer">
+          <li><a href="#inicio"><span>Inicio</span></a></li>
+          <li><a href="#nosotros"><span>Nosotros</span></a></li>
+          <li><a href="#servicios"><span>Servicios</span></a></li>
+          <li><a href="#portafolio"><span>Trabajos</span></a></li>
+          <li><a href="#contacto"><span>Contacto</span></a></li>
+        </ul>
+        <div class="centro__footer">
+          <h4 class="tittle__footer">N E X U S</h4>
+          <p>Derechos reservados © 2023 Nexusarq</p>
+        </div>
+        <div class="redes">
+          <p class="redes__footer">Seguinos en nuestras redes</p>
+          <div class="redes-icons">
+            <a target="_blank" href="https://www.instagram.com/nexus_vis/"><img src="8-instagram.svg" width="48px" ></a>
+           <a target="_blank" href="https://www.facebook.com/profile.php?id=100064847650987"> <img src="Vector.png" width="42px" ></a>
+            <a target="_blank" href="https://www.behance.net/nexusvisualization?tracking_source=search_users|nexus"><img src="behance-2161.svg" width="48px" > </a>
+          </div>
+        </div>
+      </footer>
+      
+      
+</body>
+</html>

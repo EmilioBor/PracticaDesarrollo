@@ -1,0 +1,15 @@
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\bin\Debug\net7.0\Tp4_webapi.Data.deps.json
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\bin\Debug\net7.0\Tp4_webapi.Data.dll
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\bin\Debug\net7.0\Tp4_webapi.Data.pdb
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\bin\Debug\net7.0\Tp4_webapi.Model.dll
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\bin\Debug\net7.0\Tp4_webapi.Model.pdb
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\Tp4_webapi.Data.csproj.AssemblyReference.cache
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\Tp4_webapi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\Tp4_webapi.Data.AssemblyInfoInputs.cache
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\Tp4_webapi.Data.AssemblyInfo.cs
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\Tp4_webapi.Data.csproj.CoreCompileInputs.cache
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\Tp4_webapi.Data.csproj.CopyComplete
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\Tp4_webapi.Data.dll
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\refint\Tp4_webapi.Data.dll
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\Tp4_webapi.Data.pdb
+C:\Users\emili\OneDrive\Escritorio\Desarrollo\Tp4\Tp4-wepapi\Tp4-weapi.Data\obj\Debug\net7.0\ref\Tp4_webapi.Data.dll

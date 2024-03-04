@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Casa Canarias</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="ISOTIPO (1).ico" type="image/x-icon">
+	<link rel="stylesheet" href="estilostrabajo2.css">
+</head>
+<body>
+	<script>
+        $(document).ready(function() {
+         $(window).scroll(function() {
+           if ($(this).scrollTop() > 0) {
+             $('header nav').addClass('navbar-opaque');
+           } else {
+             $('header nav').removeClass('navbar-opaque');
+           }
+         });
+       });</script>
+<div class="imagen-fondo">
+  <div class="imagen"></div>
+      </div>
+
+<section id="inicio">
+        <header class="header">
+         
+           <nav >
+                <div class="barra">
+             <a class=logotipo href="index.html"><h2>NEXUS</h2></a>
+                <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a class="contacto__" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+		</nav>  
+	</header>
+	<section id=#trabajo>
+	<div class="titulos">
+	<H1 class="title_proyect">CASA CANARIAS</H1>
+	<h3 class="ubicacion"> <img src="Pin drop.png" height="26px">Canarias, España</h3>
+</div>
+<div class="descripcion"><h4>Acerca del proyecto</h4>
+  <p>Vivienda unifamiliar posada sobre el acantilado de las sierras obteniendo las mejores vistas <br> de la zona montañosa de Gran Canarias. 
+    Se desarrolló modelado 3D y posterior renderizado <br>con imágenes exteriores para el desarrollo y ejecución posterior del Proyecto.</p></div>
+</section>
+
+<div class="imagenes"><img class=image1 src="1 CANARIAS.jpg" width=400px alt="Imagen 1" onclick="enlargeImage('1 CANARIAS.jpg')">
+  <img class=image2 src="WEB SITE/4 CANARIAN HOUSE/2 CANARIAS.jpg" width=400px alt="Imagen 2" onclick="enlargeImage('WEB SITE/4 CANARIAN HOUSE/2 CANARIAS.jpg')">
+  <img class=image3 src="EXTERIOR PRADERA.jpg" width=400px  alt="Imagen 3" onclick="enlargeImage('EXTERIOR PRADERA.jpg')">
+</div>
+ <!--------------------------------- Contenedor para la imagen agrandada --------------------->
+ <div class="enlarged-image-container" onclick="closeImage()">
+  <img class="enlarged-image" id="enlarged-img" alt="Imagen agrandada">
+</div>
+ <!-------------------------------------------------------------------javascript ACA--------------------------->
+ <script>
+  function enlargeImage(src) {
+    var enlargedImage = document.getElementById('enlarged-img');
+    enlargedImage.src = src;
+    document.querySelector('.enlarged-image-container').style.display = 'flex';
+  }
+
+  function closeImage() {
+    document.querySelector('.enlarged-image-container').style.display = 'none';
+  }
+</script>
+  <footer>
+    <ul class="links__footer">
+      <li><a href="#inicio"><span>Inicio</span></a></li>
+      <li><a href="#"><span>Nosotros</span></a></li>
+      <li><a href="#"><span>Servicios</span></a></li>
+      <li><a href="#"><span>Trabajos</span></a></li>
+      <li><a href="index.html"><span>Contacto</span></a></li>
+    </ul>
+    <div class="centro__footer">
+      <h4 class="tittle__footer">N E X U S</h4>
+      <p>Derechos reservados © 2023 Nexusarq</p>
+    </div>
+    <div class="redes">
+      <p class="redes__footer">Seguinos en nuestras redes</p>
+      <div class="redes-icons">
+        <a target="_blank" href="https://www.instagram.com/nexus_vis/"><img src="8-instagram.svg" width="48px" ></a>
+       <a target="_blank" href="https://www.facebook.com/profile.php?id=100064847650987"> <img src="Vector.png" width="42px" ></a>
+        <a target="_blank" href="https://www.behance.net/nexusvisualization?tracking_source=search_users|nexus"><img src="behance-2161.svg" width="48px" > </a>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+
+</body>
+</html>

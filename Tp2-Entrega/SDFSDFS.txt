@@ -1,0 +1,133 @@
+JS: crear paginas web dinamicas
+es un lenguaje de programacion 
+incluir js en el codigo html : 
+agregar la etiqueta script 
+alert ('el texto para q salga un popup');punto y coma al final
+ese alert se puede poner donde quieras (ponerlo a lo ultimo asi se ejecuta primero el contenido de la pagina)
+antes de la etiqueta del cierre de body
+button onclick="alert ('hola')>alerta --> para q cuando cliquees el boton aparezca la alerta(popup)
+hacer juegos validar formularios procesar datos
+separar js con codigo html
+archivos separados enlazarlos: <script src="larutadelarchivo.js"></script>
+
+---------------------------------VARIABLES----------------------------------------
+
+Las variables son espacios de memoria para almacenar info de forma temporal
+escribirlas: var nombre;guardas cadena de textos numeros etc
+var nombre = 'Jorge' se puede usar cuando quieras 
+alert (nombre);= y te aparece el contenido (jorge)
+se guardan numeros tambien: si pones dos variables distintas de numeros se suman luego
+document.write ('texto') para acceder a las variables es sin comillas 
+console.log (para escribir en la consola sin q se vea)nos permite trabajar con todos los valores 
+variable: texto y numeros nada mas(solo $ y _)
+escribir en minuscula 
+variable de dos palabras escribirlas asi queOnda
+para terminar una linea ; si queres seguir es con , 
+ademas de var numeros se pueden sumar texto = document.write (nombre + ' ' + apellido)  
+guardar resultados en las variables var resultado = numero1 + numero2
+
+--------------------------------TIPOS DE DATOS------------------------------------- 
+
+Son las dif cosas q podemos utilizar o trabajar y lo podemos guardar en variables
+tipos de valores q se guardan en variables:bumericos,cadena de textos,arreglos objetos,booleanos
+arreglos:conjunto de variables
+booleano:poner si es verdadero o falso 
+
+----------------------------------OPERADORES-----------------------------------------
+
+nos permiten manipular el valor de nuestras variables
+realizar operaciones y comparaciones
+tipos de operadores:asignacion, matematicos, incremento y decremento,logicos 
+asignacion:nos permiten asignar un valor a una variable. mas tarde ponerle un valor con el = 
+* multiplicacion /division 
+incremento y decremento: var resultado =--numero se resta 2 (igual con el +)
+logico o comparacion:comparar entre dos valores 
+var numero=5
+var numero2=5
+var resultado=numero 1 == numero2;true permite comparar con == (dos iguales)
+===:comparar tanto en valor como en tipo
+negacion: numero1:= numero2 (numero1 es diferente al numero2) con un :== <=menor e igual => mayor e igual
+
+-----------------------------------ARREGLOS------------------------------------------ 
+ 
+Un arreglo es una variable q puede guardar multiples valores 
+var nombre ['hei', 'úep','ske']
+para poner los 12 meses o algo con muchas variable
+para mostrar uno solo:
+document.write (nombre [1])
+se empieza del 0 
+con la consola: variable[0]
+
+METODOS PARA RTABAJAR CON ELLOS: 
+Metodo length: permite conocer cuantos elementos tiene un arreglo.acceder a nuestro arreglo
+(amigos.length); document.write(amigos.length)
+Metodo join: nos permite juntar nuestros arreglos y mostrarlos en una cadena de texto
+amigos.join ('un valor: -'); con document writhe vas a tener a todos los elementos separados con guion
+Metodo pop y push: nos permite pop eliminar el ultimo elemento de un arreglo y con push agregar un elemento a lo ultimo
+amigos.push('y aca el valor') 
+Metodo shift y unshift: lo mismo q pop y push pero agregar o eliminar un elemento al comienzo
+amigos.unshift ('un valor')
+Metodo concat: nos permite juntar un arreglo 
+var TodosMisAmigos = amigos.concat(amigos2); 
+console.log(TodosMisAmigos); va a aparecer todo junto 
+Metodo sort y reverse: nos permite ordenar alfabeticamente nuestro arreglo 
+amigos.sort(); 
+amigos.reverse(); al rev3z 
+
+---------------------------------CONDICIONALES---------------------------------------
+
+Es una estructura q nos permite tomar decisiones atraves de una condicion q le pongamos
+if ()
+var edad=18; 
+if(edad>=18)
+document.write ('Eres mayor de edad');
+///
+var edad=17
+if(edad<18) {document.write ('Eres menor de edad');} 
+
+if(edad>=18)
+document.write ('Eres mayor de edad');
+si la condicion no se cumple se ejecuta esto: else {} (ej:var edad=17) 
+{document.write ('Eres menor de edad');}
+switch (pais) {
+case 'Mexico': document.write ('Eres mexicano')
+break;
+case 'España' : document.write ('Eres español')
+break; 
+case 'Colombia' : document.write ('Eres colombiano')
+break;
+default: 
+case 'dfdsfd' : document.write ('No sabemos de donde sos')
+
+--------------------------------CICLO FOR-------------------------------------------
+
+Nos permiten repetir bloques de codigo cuantas veces queramos
+repetir numeros cuantos nosotros queramos 
+for (inicio; condicion; actualizacion;) {//codigo para repetir aca} 
+mientra se cumpla esta condicion el codigo se seguira repitiendo 
+hacer cuentas, recorrer arreglos 
+ejemplo real: 
+for(var i = 0;i<10;i++){} ((queremos q se repita mientras q i sea menor a 10 y cada vez q se ejecuta va a incrementar una unidad / se repite hasta q i sea mayor q 10))
+document.write (i); 
+primera parte declarar una variable q empieze en un valor // el codigo queremos q se repita mientras q la variales de menor q i (condicional) // y cada vez que se ejecuta suma (actualizacion) es necesario esto asi no se ejecuta en bucle y pare en un momento 
+for (var 1 = 10; 1 <=; 1--) 
+document.write (1)
+for(i = 0;i <= 11; )
+document.write (i = +)
+for in ns permite areglar el nombre de nuestro arreglo con el nombre de nuestra variable 
+for (mes in meses)
+document.write (document.write (meses[mes]) 
+
+---------------------------------CICLO WHILE-----------------------------------------
+
+Es un ciclo q nos permite repetir codigo cuantas veces queramos pero es mas facil (otro metodo para hacer lo mismo)
+while(solo la condicion){//codigo}
+var numero = 1
+ejemplo: while (numero<= 10) {document.write (numero + '<br>'}; numero = numero + 1; 
+incrementar en 1 la variable es la actualizacion 
+evitar los ciclos infinitos!!
+CICLO DO WHILE
+var numero = 1;
+do{console.log(numero); numero = numero + 1;} while (numero<= 10); 
+se usan los dos del for y el while 
+

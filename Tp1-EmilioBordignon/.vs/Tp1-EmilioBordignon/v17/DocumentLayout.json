@@ -1,46 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\",
+  "WorkspaceRootPath": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{258E9998-D2F6-4283-85C8-0F24AD269123}|Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj|c:\\users\\emili\\onedrive\\escritorio\\utn\\desarrollo\\tp1-emiliobordignon\\tp1-emiliobordignon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp2\\pages\\consigna2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\pages\\consigna2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258E9998-D2F6-4283-85C8-0F24AD269123}|Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp1-emiliobordignon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{258E9998-D2F6-4283-85C8-0F24AD269123}|Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj|solutionrelative:tp1-emiliobordignon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258E9998-D2F6-4283-85C8-0F24AD269123}|Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp1-emiliobordignon\\tp1-emiliobordignon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{258E9998-D2F6-4283-85C8-0F24AD269123}|Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp1-emiliobordignon\\tp1-emiliobordignon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{258E9998-D2F6-4283-85C8-0F24AD269123}|Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj|solutionrelative:tp1-emiliobordignon\\tp1-emiliobordignon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp2\\pages\\consigna4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp2\\pages\\consigna4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\pages\\consigna4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp2\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp2\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp2\\pages\\consigna 3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp2\\pages\\consigna 3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\pages\\consigna 3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp2\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|c:\\users\\emili\\onedrive\\escritorio\\desarrollo\\pdftrabajos\\trabajos practicos\\practicadesarrollo\\tp1-emiliobordignon\\tp2\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\tp2\\pages\\consigna2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2B9444B-2793-4704-84B8-EA389BDFE67C}|Tp2\\Tp2.csproj|solutionrelative:tp2\\pages\\consigna2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 247,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,23 +58,27 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Tp1-EmilioBordignon",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
+              "DocumentIndex": 2,
+              "Title": "Tp1-EmilioBordignon.csproj",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
               "RelativeDocumentMoniker": "Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
               "RelativeToolTip": "Tp1-EmilioBordignon\\Tp1-EmilioBordignon.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -82,24 +86,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Program.cs",
               "RelativeDocumentMoniker": "Tp1-EmilioBordignon\\Program.cs",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Program.cs",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp1-EmilioBordignon\\Program.cs",
               "RelativeToolTip": "Tp1-EmilioBordignon\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAIwBcAAAAVAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAuwBcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-29T23:36:03.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Consigna4.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna4.cshtml",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna4.cshtml",
               "RelativeDocumentMoniker": "Tp2\\Pages\\Consigna4.cshtml",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna4.cshtml",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna4.cshtml",
               "RelativeToolTip": "Tp2\\Pages\\Consigna4.cshtml",
               "ViewState": "AQIAAC4AAAAAAAAAAAAAAF0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -107,11 +111,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Tp2\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\wwwroot\\js\\site.js",
               "RelativeToolTip": "Tp2\\wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -119,11 +123,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Consigna 3.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna 3.cshtml",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna 3.cshtml",
               "RelativeDocumentMoniker": "Tp2\\Pages\\Consigna 3.cshtml",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna 3.cshtml",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna 3.cshtml",
               "RelativeToolTip": "Tp2\\Pages\\Consigna 3.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -131,11 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Tp2\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Privacy.cshtml",
               "RelativeToolTip": "Tp2\\Pages\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -143,11 +147,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Tp2\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\wwwroot\\css\\site.css",
               "RelativeToolTip": "Tp2\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAADcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -155,11 +159,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Tp2\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Tp2\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA4AAAAAAAAAAAAYwDEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -167,23 +171,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Consigna2.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna2.cshtml",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna2.cshtml",
               "RelativeDocumentMoniker": "Tp2\\Pages\\Consigna2.cshtml",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna2.cshtml",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Consigna2.cshtml",
               "RelativeToolTip": "Tp2\\Pages\\Consigna2.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-29T23:33:44.068Z"
+              "WhenOpened": "2024-02-29T23:33:44.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Tp2\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\UTN\\Desarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emili\\OneDrive\\Escritorio\\Desarrollo\\PdfTrabajos\\Trabajos practicos\\PracticaDesarrollo\\Tp1-EmilioBordignon\\Tp2\\Pages\\Index.cshtml",
               "RelativeToolTip": "Tp2\\Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

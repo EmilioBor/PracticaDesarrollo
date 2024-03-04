@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Molina</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="ISOTIPO (1).ico" type="image/x-icon">
+	<link rel="stylesheet" href="estilostrabajo6.css">
+</head>
+<body>
+	<script>
+        $(document).ready(function() {
+         $(window).scroll(function() {
+           if ($(this).scrollTop() > 0) {
+             $('header nav').addClass('navbar-opaque');
+           } else {
+             $('header nav').removeClass('navbar-opaque');
+           }
+         });
+       });</script>
+<div class="imagen-fondo">
+  <div class="imagen"></div>
+      </div>
+
+<section id="inicio">
+        <header class="header">
+           <nav >
+                <div class="barra">
+             <a class=logotipo href="index.html"><h2>NEXUS</h2></a>
+             <ul>
+              <li><a href="index.html">Nosotros</a></li>
+              <li><a href="index.html">Servicios</a></li>
+              <li><a href="index.html">Portafolio</a></li>
+              <li><a class="contacto__" href="index.html">Contacto</a></li>
+          </ul>
+            </div>
+		</nav>  
+	</header>
+	<section id=#trabajo>
+	<div class="titulos">
+	<H1 class="title_proyect">LA MOLINA</H1>
+	<h3 class="ubicacion"> <img src="Pin drop.png" height="26px">Lima, Peru</h3> 
+</div>
+<div class="descripcion"><h4>Acerca del proyecto</h4>
+  <p> Edificio multifamiliar, departamentos con vistas al parque y sierras. <br> 
+    Se desarrollaron diferentes tipologias de las unidades como ésta, donde se realizó <br> el modelado 3D y posterior renderizado con imágenes de los diferentes ambientes.
+    </p></div>
+</section>
+
+<div class="imagenes"><img class=image1 src="WEB SITE/5 LA MOLINA/2 MOLINA.jpg" width=400px alt="Imagen 1" onclick="enlargeImage('WEB SITE/5 LA MOLINA/2 MOLINA.jpg')"> 
+  <img class=image2 src="1 MOLINA.jpg" width=400px alt="Imagen 2" onclick="enlargeImage('1 MOLINA.jpg')"> 
+  <img class=image3 src="WEB SITE/5 LA MOLINA/3 MOLINA.jpg" width=400px  alt="Imagen 3" onclick="enlargeImage('WEB SITE/5 LA MOLINA/3 MOLINA.jpg')"> 
+</div>
+ <!--------------------------------- Contenedor para la imagen agrandada --------------------->
+ <div class="enlarged-image-container" onclick="closeImage()">
+  <img class="enlarged-image" id="enlarged-img" alt="Imagen agrandada">
+</div>
+ <!-------------------------------------------------------------------javascript ACA--------------------------->
+ <script>
+  function enlargeImage(src) {
+    var enlargedImage = document.getElementById('enlarged-img');
+    enlargedImage.src = src;
+    document.querySelector('.enlarged-image-container').style.display = 'flex';
+  }
+
+  function closeImage() {
+    document.querySelector('.enlarged-image-container').style.display = 'none';
+  }
+</script>
+
+<div class="container">
+  <div class="content">
+    <h1>Recorrido Visual de 360 Grados</h1>
+  </div>
+  <script 
+    src="https://static.kuula.io/embed.js" 
+    data-kuula="https://kuula.co/share/5bZbK?logo=1&info=1&fs=1&vr=0&thumbs=1" 
+    data-width="100%" 
+    data-height="640px"
+  ></script>
+</div>
+  <footer>
+    <ul class="links__footer">
+      <li><a href="index.html"><span>Inicio</span></a></li>
+      <li><a href="index.html"><span>Nosotros</span></a></li>
+      <li><a href="index.html"><span>Servicios</span></a></li>
+      <li><a href="index.html"><span>Trabajos</span></a></li>
+      <li><a href="index.html"><span>Contacto</span></a></li>
+    </ul>
+    <div class="centro__footer">
+      <h4 class="tittle__footer">N E X U S</h4>
+      <p>Derechos reservados © 2023 Nexusarq</p>
+    </div>
+    <div class="redes">
+      <p class="redes__footer">Seguinos en nuestras redes</p>
+      <div class="redes-icons">
+        <a target="_blank" href="https://www.instagram.com/nexus_vis/"><img src="8-instagram.svg" width="48px" ></a>
+       <a target="_blank" href="https://www.facebook.com/profile.php?id=100064847650987"> <img src="Vector.png" width="42px" ></a>
+        <a target="_blank" href="https://www.behance.net/nexusvisualization?tracking_source=search_users|nexus"><img src="behance-2161.svg" width="48px" > </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

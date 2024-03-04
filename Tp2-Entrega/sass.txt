@@ -1,0 +1,7 @@
+-o(carpeta de salida
+node-sass 
+-w (para vigilar nuevos cambios automaticamente)/esto se pone en conjunto con o mismo de siempre (node-sass nombre.sass nombre.css)
+poner la carpeta q esta el archivo a compilar con cd y la ruta (ej: cd C:\Users\Agustin\Desktop\NACHO\DISEÑOWEB) 
+una vez entrada a la carpeta selecciona el archivos sass para convertirlo a css con la linea de codigo /node-sass nombre.sass nombre.css/
+de esta manera se convierte a una extension css y apartir de ahi cada cambio se pone la misma linea y se va a cambiar del archivo css 
+para q lo haga automaticamente -w
